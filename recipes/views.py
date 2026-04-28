@@ -17,14 +17,14 @@ def home(request):
     #  permitindo que você exiba informações dinâmicas na página.
 
 def contato(request):
-    return HttpResponse("CONTATO")
+    return render(request, 'recipes/contato.html')
 
 def my_view(request):
     return HttpResponse("One Beautiful String")
 
 def sobre(request):
-    return render(request, 'recipes/contato.html')
+    return render(request, 'recipes/sobre.html')
 
 def temas(request):
-    return HttpResponse("teme page with django in recipes")
+    return render(request, 'recipes/temas.html')
 # Create your views here.

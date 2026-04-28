@@ -9,6 +9,7 @@ urlpatterns = [
     path('home/', home),
     path('contato/', contato),
     path('sobre/', sobre),
-    path('recipes/temas', temas)
+    path('temas/', temas),
+    
 
 ]

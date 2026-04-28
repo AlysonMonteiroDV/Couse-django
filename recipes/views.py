@@ -19,9 +19,6 @@ def home(request):
 def contato(request):
     return render(request, 'recipes/contato.html')
 
-def my_view(request):
-    return HttpResponse("One Beautiful String")
-
 def sobre(request):
     return render(request, 'recipes/sobre.html')
 

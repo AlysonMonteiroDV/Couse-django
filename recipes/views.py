@@ -23,7 +23,7 @@ def my_view(request):
     return HttpResponse("One Beautiful String")
 
 def sobre(request):
-    return render(request, 'me-apaque/temp.html')
+    return render(request, 'recipes/contato.html')
 
 def temas(request):
     return HttpResponse("teme page with django in recipes")

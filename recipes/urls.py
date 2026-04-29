@@ -1,15 +1,13 @@
 from django.urls import path
 from django.http import HttpResponse
-from recipes.views import home, contato, sobre,temas
+from recipes.views import home
 #   Cliente         Servidor
 #HTTP REQUEST <- HTTP RESPONSE
 
 urlpatterns = [
     path('', home),
-    path('home/', home),
-    path('contato/', contato),
-    path('sobre/', sobre),
-    path('temas/', temas),
+    
+    
     
 
 ]

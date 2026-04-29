@@ -16,12 +16,4 @@ def home(request):
     #  dados do view para o template,
     #  permitindo que você exiba informações dinâmicas na página.
 
-def contato(request):
-    return render(request, 'recipes/contato.html')
-
-def sobre(request):
-    return render(request, 'recipes/sobre.html')
-
-def temas(request):
-    return render(request, 'recipes/temas.html')
 # Create your views here.
